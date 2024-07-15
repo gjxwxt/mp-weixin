@@ -44,3 +44,6 @@ page {
   height: 100%;
 }
 </style>
+<style lang="scss">
+@import 'uview-plus/index.scss';
+</style>
