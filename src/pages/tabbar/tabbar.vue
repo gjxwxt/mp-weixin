@@ -52,7 +52,7 @@ onLoad(() => {})
   .main {
     flex: 1 0 0;
     overflow: auto;
-    padding-bottom: 100rpx;
+    padding-bottom: calc(100upx + env(safe-area-inset-bottom) / 2);
   }
   .tabbar {
     width: 100%;

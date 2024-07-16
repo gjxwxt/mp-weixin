@@ -77,6 +77,7 @@ function BackPage() {
 .cu-bar {
   @include flex-r-start-center;
   position: relative;
+  background-color: #fff;
   .action {
     padding-left: 26rpx;
   }
